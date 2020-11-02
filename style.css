@@ -1,0 +1,60 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+li {                /*　文字の色　*/
+  color: #e9e1e1;
+}
+
+body {             /*  フォント設定　*/
+  font-family: "Lato", "Noto Sans JP", "ヒラギノ角ゴ ProN",
+    "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック",
+    "MS PGothic", sans-serif;
+}
+
+.container{       /*Hello World! Hello Everyone*/
+    width:1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+    opacity: 0.9;
+    text-align: center;
+    }
+    
+    
+    
+    .top-wrapper{   /* top-wrapper背景の画像 */
+      padding: 100px 0 100px 0;
+      background-image: url(1606003_m.jpg);
+      background-size: cover;
+      color:white;
+      background-size: 20% auto;
+      margin: 0 0auto;
+    }
+
+.btn{               /* this page all btn */
+  padding: 8px 24px;
+  color: rgb(216, 215, 233);
+  display: block;
+  opacity: 1;
+  border-radius:4px;
+  background-color: rgb(14, 189, 212);
+  margin: 0 510px;
+  margin-top: 15px;
+  
+}
+.btn:hover{         /* カーソルを乗せた際の色の変更 */
+  background-color: rgb(12, 29, 128);
+  color: aqua;
+  opacity: 1;
+  transition: 1s;
+}
+a.CodeT {
+  background: url("icn.png") center left no-repeat;
+  padding-left: 25px;
+  background-color: rgb(14, 189, 212);
+  color: blue;
+  }
