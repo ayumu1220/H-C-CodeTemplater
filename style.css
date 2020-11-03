@@ -44,7 +44,9 @@ body {             /*  フォント設定　*/
   background-color: rgb(14, 189, 212);
   margin: 0 510px;
   margin-top: 15px;
-  
+}
+a.btn{
+  text-decoration: none;
 }
 .btn:hover{         /* カーソルを乗せた際の色の変更 */
   background-color: rgb(12, 29, 128);
@@ -52,7 +54,7 @@ body {             /*  フォント設定　*/
   opacity: 1;
   transition: 1s;
 }
-a.CodeT {
+a.CodeT {           /* CodeTのicon */
   background: url("icn.png") center left no-repeat;
   padding-left: 25px;
   background-color: rgb(14, 189, 212);
